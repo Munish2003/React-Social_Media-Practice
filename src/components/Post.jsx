@@ -24,7 +24,7 @@ function Post({ post }) {
           </span>
         ))}
         <div className="alert alert-success reactions" role="alert">
-          This Post has been reacted by—{post.reactions} people
+          This Post has been reacted by—{post.reactions.likes} people
         </div>
       </div>
     </div>
